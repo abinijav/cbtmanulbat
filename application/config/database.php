@@ -6,10 +6,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'	=> '',
-    'hostname' => 'localhost',
-    'username' => 'root',
-    'password' => '',
-    'database' => 'db_garuda',
+    'hostname' => 'mysql-362ce60f-mrzaenal76-aeb0.h.aivencloud.com',
+    'port' => '21099',
+    'username' => 'avnadmin'
+    'password' => 'AVNS_6uyy1_iFQhLa50aKMYc',
+    'database' => 'defaultdb',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
